@@ -148,7 +148,7 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/users_and_groups_searchable" />
 
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -158,7 +158,7 @@
                 <data android:host="*" />
                 <data android:pathPattern="/f/..*" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -168,7 +168,7 @@
                 <data android:host="*" />
                 <data android:pathPattern="/..*/f/..*" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -178,7 +178,7 @@
                 <data android:host="*" />
                 <data android:pathPattern="/..*/..*/f/..*" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -188,7 +188,7 @@
                 <data android:host="*" />
                 <data android:pathPattern="/..*/..*/..*/f/..*" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -198,7 +198,7 @@
                 <data android:host="*" />
                 <data android:pathPattern="/f/..*" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -208,7 +208,7 @@
                 <data android:host="*" />
                 <data android:pathPattern="/..*/f/..*" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -218,7 +218,7 @@
                 <data android:host="*" />
                 <data android:pathPattern="/..*/..*/f/..*" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
